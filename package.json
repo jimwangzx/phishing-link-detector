@@ -1,0 +1,23 @@
+{
+  "name": "phishing-link-detector",
+  "version": "1.0.0",
+  "description": "Check if a displayed link's actual url is the same as displayed, or if it's pretending.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "jest": "27.0.6",
+    "parcel-bundler": "^1.6.1",
+    "psl": "1.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}

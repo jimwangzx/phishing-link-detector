@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phishing Link Detector</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <h1>Phishing Link Detector</h1>
+
+    <hr />
+
+    <table class="testEntry testTable">
+      <tr>
+        <th>Link shown to Email User</th>
+        <th>Link Data</th>
+        <th>Actual Link</th>
+        <th>Is Authentic</th>
+      </tr>
+      <tr class="tableData"></tr>
+    </table>
+
+    <h3 style="margin-top: 50px;">
+      Test it yourself
+    </h3>
+
+    <ul>
+      <li>
+        1. Paste the link data (a tag) you want to check for authenticity
+      </li>
+      <li>2. Press Enter</li>
+    </ul>
+
+    <input
+      type="text"
+      placeholder="Paste your own link data (a tag) to check"
+    />
+
+    <table class="testEntry testTable" style="margin-top: 0;">
+      <tr>
+        <th>Link shown to Email User</th>
+        <th>Actual Link</th>
+        <th>Is Authentic</th>
+      </tr>
+
+      <tr>
+        <td>test.com</td>
+        <td>www.test.com</td>
+        <td>Yes</td>
+      </tr>
+    </table>
+
+    <p><b>Performance Notice</b></p>
+    <p>
+      Speed of Link checking is near realtime. Waiting time is only due to
+      transfer time of your test request to the server where the actual
+      authentication code is hosted.
+    </p>
+
+    <script src="src/linkCheck.ts"></script>
+    <script src="src/tablePopulation.js"></script>
+  </body>
+</html>
+
+<!-- <div class="testEntry">
+  <div class="linkDataShowcase fullWidth"></div>
+  <div class="displayedLink fullWidth">
+    Displayed Link:
+  </div>
+  <div class="actualLink fullWidth">
+    Actual Link:
+  </div>
+  <div class="assessment fullWidth">
+    Assessment
+  </div>
+</div> -->
