@@ -1,6 +1,6 @@
 {
   "name": "phishing-link-detector",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Check if a displayed link's actual url is the same as displayed, or if it's pretending.",
   "main": "index.html",
   "scripts": {
@@ -8,13 +8,20 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "@netlify/functions": "netlify/functions",
     "axios": "0.21.1",
-    "jest": "27.0.6",
+    "linkedom": "^0.11.1",
     "parcel-bundler": "^1.6.1",
-    "psl": "1.8.0"
+    "psl": "1.8.0",
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0"
+    "@babel/core": "7.2.0",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"
