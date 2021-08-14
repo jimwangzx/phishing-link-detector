@@ -26,6 +26,9 @@ https://phishing-link-detector.netlify.app
 - netlify cli is required to run serverless backend functions
 
 ```bash
+# install all deps
+yarn
+# add netlify-cli
 yarn add netlify-cli
 # test
 yarn jest
