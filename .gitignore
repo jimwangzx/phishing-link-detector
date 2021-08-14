@@ -74,3 +74,9 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# dist
+dist
+
+# netlify cache
+.netlify/functions-serve
