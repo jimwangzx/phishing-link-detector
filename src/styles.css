@@ -133,3 +133,11 @@ tr {
     transform: translateY(0);
   }
 }
+
+.credit {
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: #333;
+  padding: 15px 25px;
+}
