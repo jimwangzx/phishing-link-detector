@@ -27,12 +27,15 @@ https://phishing-link-detector.netlify.app
 
 ```bash
 yarn add netlify-cli
+# test
+yarn jest
 # then run
 netlify dev
+# open on localhost:8888
 ```
 
 ## Note
 
 initial version developed on codesandbox
 
-https://codesandbox.io/s/phishing-link-detector-ug5bu?file=/src/tablePopulation.js
+https://codesandbox.io/s/phishing-link-detector-ug5bu

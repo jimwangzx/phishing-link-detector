@@ -1,5 +1,5 @@
 // import ".netlify/functions-serve/linkCheck/linkCheck.js";
-import { extractLinkData, isFakeLink } from "./../netlify/functions/linkCheck";
+import { extractLinkData, isFakeLink } from "../linkCheck";
 
 // BUG: Doesnt work with .ts file
 describe("Test if linkCheck works correctly", () => {
