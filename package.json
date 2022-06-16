@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@netlify/functions": "netlify/functions",
-    "axios": "0.21.1",
+    "axios": "0.21.2",
     "linkedom": "^0.11.1",
     "parcel-bundler": "^1.6.1",
     "psl": "1.8.0",
